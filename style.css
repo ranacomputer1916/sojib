@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppiens' sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+
+
+}
+
+.top2 input {
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px 15px;
+
+}
+
+.top2 button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(236, 113, 5);
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'poppiens', sans-serif;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.top4 {
+    margin-top: 20px;
+
+}
+
+.top4 img {
+    width: 100%;
+
+}
+.font{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    margin-top: 10px;
+}
+
+.products {
+    margin-top: 30px;
+    width: 300px;
+    float: left;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.products:hover {
+    transition: 0.7s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.text {
+
+    border-radius: 10px;
+
+}
+span{
+    color: #F14201;
+    font-size: 25px;
+}
+
+img {
+    padding: 5px;
+    width: 97%;
+    border-radius: 10px;
+}
+
+footer {
+
+    width: 100%;
+    height: 100px;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+footer h4 {
+    text-align: center;
+    color: #F14201;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'poppiens', sans-serif;
+    margin-top: 40px;
+}
